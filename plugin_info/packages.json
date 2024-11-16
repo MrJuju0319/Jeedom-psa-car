@@ -1,38 +1,35 @@
 {
-  "pre-install": {
-  },
+  "pre-install": {},
   "apt": {
-    "python3-typing-extensions" : {},
-    "python3-pandas" : {},
-    "python3-plotly" : {},
-    "python3-paho-mqtt" : {},
-    "python3-six" : {},
-    "python3-dateutil" : {},
-    "python3-brotli" : {},
-    "libblas-dev" : {},
-    "liblapack-dev" : {},
-    "gfortran" : {},
-    "python3-pycryptodome" : {},
-    "libatlas3-base" : {},
-    "python3-cryptography" : {},
-    "python3-pip" : {}
+    "python3-typing-extensions": {},
+    "python3-pandas": {},
+    "python3-plotly": {},
+    "python3-paho-mqtt": {},
+    "python3-six": {},
+    "python3-dateutil": {},
+    "python3-brotli": {},
+    "libblas-dev": {},
+    "liblapack-dev": {},
+    "gfortran": {},
+    "python3-pycryptodome": {},
+    "libatlas3-base": {},
+    "python3-cryptography": {},
+    "python3-pip": {}
   },
   "pip3": {
-    "pyserial" : {"reinstall" : true},
-    "requests" : {"reinstall" : true},
-    "psa-car-controller": {},
+    "pyserial": {"reinstall": true},
+    "requests": {"reinstall": true},
+    "psa-car-controller": {}
   },
   "npm": {
-    "plugins/psacar/ressources/demaond"  : {}
+    "plugins/psacar/ressources/demaond": {}
   },
   "composer": {
-       "plugins/psacar"  : {}
+    "plugins/psacar": {}
   },
   "yarn": {
-    "plugins/psacar/ressources/demaond"  : {}
+    "plugins/psacar/ressources/demaond": {}
   },
-  "plugin": {
-  },
-  "post-install": {
-  }
+  "plugin": {},
+  "post-install": {}
 }
