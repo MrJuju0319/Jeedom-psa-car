@@ -1,0 +1,38 @@
+{
+  "pre-install": {
+  },
+  "apt": {
+    "python3-typing-extensions",
+    "python3-pandas",
+    "python3-plotly",
+    "python3-paho-mqtt",
+    "python3-six",
+    "python3-dateutil",
+    "python3-brotli",
+    "libblas-dev",
+    "liblapack-dev",
+    "gfortran",
+    "python3-pycryptodome",
+    "libatlas3-base",
+    "python3-cryptography",
+    "python3-pip"
+  },
+  "pip3": {
+    "pyserial" : {"reinstall" : true},
+    "requests" : {"reinstall" : true},
+    "psa-car-controller": {},
+  },
+  "npm": {
+    "plugins/psacar/ressources/demaond"  : {}
+  },
+  "composer": {
+       "plugins/psacar"  : {}
+  },
+  "yarn": {
+    "plugins/psacar/ressources/demaond"  : {}
+  },
+  "plugin": {
+  },
+  "post-install": {
+  }
+}
