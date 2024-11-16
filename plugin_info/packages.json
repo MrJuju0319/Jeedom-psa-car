@@ -31,12 +31,12 @@
       }
    },
    "plugin": {},
-   "post-install": {},
+   "post-install": {
+      "fix-urllib3-conflict": "bash fix_urllib3_conflict.sh"
+   },
    "pre-install": {},
    "yarn": {
       "plugins/psacar/ressources/demaond": {}
    },
-   "scripts": {
-      "fix-urllib3-conflict": "bash fix_urllib3_conflict.sh"
-   }
+   "scripts": {}
 }
