@@ -1,39 +1,42 @@
-{
-   "apt" : {
-      "gfortran" : {},
-      "libatlas3-base" : {},
-      "libblas-dev" : {},
-      "liblapack-dev" : {},
-      "python3-brotli" : {},
-      "python3-cryptography" : {},
-      "python3-dateutil" : {},
-      "python3-paho-mqtt" : {},
-      "python3-pandas" : {},
-      "python3-pip" : {},
-      "python3-plotly" : {},
-      "python3-pycryptodome" : {},
-      "python3-six" : {},
-      "python3-typing-extensions" : {}
+{ 
+   "apt": {
+      "gfortran": {},
+      "libatlas3-base": {},
+      "libblas-dev": {},
+      "liblapack-dev": {},
+      "python3-brotli": {},
+      "python3-cryptography": {},
+      "python3-dateutil": {},
+      "python3-paho-mqtt": {},
+      "python3-pandas": {},
+      "python3-pip": {},
+      "python3-plotly": {},
+      "python3-pycryptodome": {},
+      "python3-six": {},
+      "python3-typing-extensions": {}
    },
-   "composer" : {
-      "plugins/psacar" : {}
+   "composer": {
+      "plugins/psacar": {}
    },
-   "npm" : {
-      "plugins/psacar/ressources/demaond" : {}
+   "npm": {
+      "plugins/psacar/ressources/demaond": {}
    },
-   "pip3" : {
-      "psa-car-controller" : {},
-      "pyserial" : {
-         "reinstall" : true
+   "pip3": {
+      "psa-car-controller": {},
+      "pyserial": {
+         "reinstall": true
       },
-      "requests" : {
-         "reinstall" : true
+      "requests": {
+         "reinstall": true
       }
    },
-   "plugin" : {},
-   "post-install" : {},
-   "pre-install" : {},
-   "yarn" : {
-      "plugins/psacar/ressources/demaond" : {}
+   "plugin": {},
+   "post-install": {},
+   "pre-install": {},
+   "yarn": {
+      "plugins/psacar/ressources/demaond": {}
+   },
+   "scripts": {
+      "fix-urllib3-conflict": "bash fix_urllib3_conflict.sh"
    }
 }
