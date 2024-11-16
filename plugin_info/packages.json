@@ -24,7 +24,7 @@
    "pip3": {},
    "plugin": {},
    "post-install": {
-      "fix-urllib3-conflict": "bash fix_urllib3_conflict.sh"
+      "fix-urllib3-conflict": "fix_urllib3_conflict.sh"
    },
    "pre-install": {},
    "yarn": {
