@@ -21,15 +21,7 @@
    "npm": {
       "plugins/psacar/ressources/demaond": {}
    },
-   "pip3": {
-      "psa-car-controller": {},
-      "pyserial": {
-         "reinstall": true
-      },
-      "requests": {
-         "reinstall": true
-      }
-   },
+   "pip3": {},
    "plugin": {},
    "post-install": {
       "fix-urllib3-conflict": "bash fix_urllib3_conflict.sh"
